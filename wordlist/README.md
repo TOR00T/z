@@ -14,5 +14,6 @@ https://nordpass.com/most-common-passwords-list/<br>
 * SplashData<br>
 SplashData_Top25_2011-SplashData_Top25_2019<br>
 * ftp
+* mssql
 * mysql
 * oracle
