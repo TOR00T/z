@@ -12,5 +12,7 @@ https://nordpass.com/most-common-passwords-list/<br>
 PwnedPasswordsTop100k_2019<br>
 https://www.ncsc.gov.uk/static-assets/documents/PwnedPasswordsTop100k.txt<br>
 * SplashData<br>
-SplashData_Top25_2011-SplashData_Top25_2019
-* test
+SplashData_Top25_2011-SplashData_Top25_2019<br>
+* ftp
+* mysql
+* oracle
