@@ -97,6 +97,10 @@ https://github.com/0xDanielLopez/TweetFeed</td>
 		<td>Tophant</td>
 		<td>https://mac-cloud.riskivy.com/mac-cloud</td>
 	</tr>
+	<tr>
+		<td>ScanVir</td>
+		<td>http://www.scanvir.com/</td>
+	</tr>
 </tbody>
 <thead>
 	<tr>
@@ -109,12 +113,28 @@ https://github.com/0xDanielLopez/TweetFeed</td>
 		<td>https://maldun.com/submit/submit_file</td>
 	</tr>
 	<tr>
+		<td>Pithus</td>
+		<td>https://beta.pithus.org/</td>
+	</tr>
+	<tr>
+		<td>SandDroid</td>
+		<td>http://sanddroid.xjtu.edu.cn/</td>
+	</tr>
+	<tr>
 		<td>Tencent HABO</td>
 		<td>https://habo.qq.com/</td>
 	</tr>
 	<tr>
-		<td>Pithus</td>
-		<td>https://beta.pithus.org/</td>
+		<td>Tencent KingKong</td>
+		<td>https://service.security.tencent.com/kingkong</td>
+	</tr>
+	<tr>
+		<td>Tencent Mobile Security Labs</td>
+		<td>https://m.qq.com/security_lab/scans_online.jsp</td>
+	</tr>
+	<tr>
+		<td>360 Mobile</td>
+		<td>http://scan.shouji.360.cn/</td>
 	</tr>
 </tbody>
 <thead>
