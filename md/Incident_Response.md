@@ -166,5 +166,17 @@ https://github.com/0xDanielLopez/TweetFeed</td>
 		<td>qianxin</td>
 		<td>https://lesuobingdu.qianxin.com/</td>
 	</tr>
+	<tr>
+		<td>sangfor</td>
+		<td>https://edr.sangfor.com.cn/#/information/ransom_search</td>
+	</tr>
+	<tr>
+		<td>Tencent</td>
+		<td>https://guanjia.qq.com/pr/ls/</td>
+	</tr>
+	<tr>
+		<td>VenusEye</td>
+		<td>https://lesuo.venuseye.com.cn/</td>
+	</tr>
 </tbody>
 </table>
