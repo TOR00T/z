@@ -36,7 +36,7 @@
 </tbody>
 <thead>
 	<tr>
- 		<th colspan="2">Analysis</th>
+ 		<th colspan="2">Malware Analysis</th>
 	</tr>
 </thead>
 <tbody>
@@ -55,6 +55,17 @@
 	<tr>
 		<td>VirSCAN</td>
 		<td>https://www.virscan.org/</td>
+	</tr>
+</tbody>
+<thead>
+	<tr>
+ 		<th colspan="2">Pcap Analysis</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>A-Packets - Online pcap file analyzer</td>
+		<td>https://apackets.com/</td>
 	</tr>
 </tbody>
 </table>
