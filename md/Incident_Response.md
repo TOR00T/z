@@ -56,6 +56,10 @@
 		<td>VirSCAN</td>
 		<td>https://www.virscan.org/</td>
 	</tr>
+	<tr>
+		<td>Kaspersky Threat Intelligence Portal</td>
+		<td>https://opentip.kaspersky.com/</td>
+	</tr>
 </tbody>
 <thead>
 	<tr>
