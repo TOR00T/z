@@ -148,4 +148,15 @@ https://github.com/0xDanielLopez/TweetFeed</td>
 		<td>https://apackets.com/</td>
 	</tr>
 </tbody>
+<thead>
+	<tr>
+ 		<th colspan="2">Ransomware identify</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>ID Ransomware</td>
+		<td>https://id-ransomware.malwarehunterteam.com/</td>
+	</tr>
+</tbody>
 </table>
