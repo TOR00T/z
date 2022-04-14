@@ -34,4 +34,9 @@
 		<td>https://feed.watcherlab.com/</td>
 	</tr>
 </tbody>
+<thead>
+	<tr>
+ 		<th colspan="2">Analysis</th>
+	</tr>
+</thead>
 </table>
