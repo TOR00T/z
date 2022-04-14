@@ -39,4 +39,10 @@
  		<th colspan="2">Analysis</th>
 	</tr>
 </thead>
+<tbody>
+	<tr>
+		<td>Interactive Online Malware Analysis Sandbox - ANY.RUN</td>
+		<td>https://app.any.run/</td>
+	</tr>
+</tbody>
 </table>
