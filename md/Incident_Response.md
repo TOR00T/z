@@ -48,5 +48,13 @@
 		<td>VirusTotal</td>
 		<td>https://www.virustotal.com/</td>
 	</tr>
+	<tr>
+		<td>Free Automated Malware Analysis Service</td>
+		<td>https://www.hybrid-analysis.com/</td>
+	</tr>
+	<tr>
+		<td>VirSCAN</td>
+		<td>https://www.virscan.org/</td>
+	</tr>
 </tbody>
 </table>
