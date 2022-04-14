@@ -44,5 +44,9 @@
 		<td>Interactive Online Malware Analysis Sandbox - ANY.RUN</td>
 		<td>https://app.any.run/</td>
 	</tr>
+	<tr>
+		<td>VirusTotal</td>
+		<td>https://www.virustotal.com/</td>
+	</tr>
 </tbody>
 </table>
