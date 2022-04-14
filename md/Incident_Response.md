@@ -162,5 +162,9 @@ https://github.com/0xDanielLopez/TweetFeed</td>
 		<td>360</td>
 		<td>https://lesuobingdu.360.cn/</td>
 	</tr>
+	<tr>
+		<td>qianxin</td>
+		<td>https://lesuobingdu.qianxin.com/</td>
+	</tr>
 </tbody>
 </table>
