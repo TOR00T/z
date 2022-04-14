@@ -60,6 +60,29 @@
 		<td>Kaspersky Threat Intelligence Portal</td>
 		<td>https://opentip.kaspersky.com/</td>
 	</tr>
+	<tr>
+		<td>qianxin</td>
+		<td>https://sandbox.ti.qianxin.com/sandbox/page</td>
+	</tr>
+	<tr>
+		<td>threatbook</td>
+		<td>https://s.threatbook.cn/</td>
+	</tr>
+</tbody>
+<thead>
+	<tr>
+ 		<th colspan="2">Apk Analysis</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>maldun</td>
+		<td>https://maldun.com/submit/submit_file/</td>
+	</tr>
+	<tr>
+		<td>Tencent HABO</td>
+		<td>https://habo.qq.com/</td>
+	</tr>
 </tbody>
 <thead>
 	<tr>
