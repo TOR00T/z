@@ -18,6 +18,14 @@
 		<td>https://urlhaus.abuse.ch/browse/</td>
 	</tr>
 	<tr>
+		<td>RedQueen</td>
+		<td>https://redqueen.tj-un.com/IntelHome.html</td>
+	</tr>
+	<tr>
+		<td>IBM X-Force Exchange</td>
+		<td>https://exchange.xforce.ibmcloud.com/</td>
+	</tr>
+	<tr>
 		<td>360</td>
 		<td>https://ti.360.cn/</td>
 	</tr>
