@@ -205,5 +205,9 @@ https://github.com/0xDanielLopez/TweetFeed</td>
 		<td>Emsisoft</td>
 		<td>https://www.emsisoft.com/ransomware-decryption-tools/free-download</td>
 	</tr>
+	<tr>
+		<td>Kaspersky</td>
+		<td>https://noransom.kaspersky.com/</td>
+	</tr>
 </tbody>
 </table>
