@@ -14,6 +14,10 @@
 		<td>https://ti.qianxin.com/</td>
 	</tr>
 	<tr>
+		<td>URLhaus Database</td>
+		<td>https://urlhaus.abuse.ch/browse/</td>
+	</tr>
+	<tr>
 		<td>360</td>
 		<td>https://ti.360.cn/</td>
 	</tr>
@@ -32,6 +36,11 @@
 	<tr>
 		<td>watcherlab</td>
 		<td>https://feed.watcherlab.com/</td>
+	</tr>
+	<tr>
+		<td>Twitter IOCs</td>
+		<td>https://tweetfeed.live/<br>
+https://github.com/0xDanielLopez/TweetFeed</td>
 	</tr>
 </tbody>
 <thead>
@@ -53,10 +62,6 @@
 		<td>https://www.hybrid-analysis.com/</td>
 	</tr>
 	<tr>
-		<td>VirSCAN</td>
-		<td>https://www.virscan.org/</td>
-	</tr>
-	<tr>
 		<td>Kaspersky Threat Intelligence Portal</td>
 		<td>https://opentip.kaspersky.com/</td>
 	</tr>
@@ -68,6 +73,30 @@
 		<td>threatbook</td>
 		<td>https://s.threatbook.cn/</td>
 	</tr>
+	<tr>
+		<td>Jotti</td>
+		<td>https://virusscan.jotti.org/</td>
+	</tr>
+	<tr>
+		<td>Joe Sandbox Cloud Basic</td>
+		<td>https://www.joesandbox.com/</td>
+	</tr>
+	<tr>
+		<td>vdnel</td>
+		<td>https://cloud.vdnel.cn/</td>
+	</tr>
+	<tr>
+		<td>VirSCAN</td>
+		<td>https://www.virscan.org/</td>
+	</tr>
+	<tr>
+		<td>anxinsec</td>
+		<td>https://scan.anxinsec.com/</td>
+	</tr>
+	<tr>
+		<td>Tophant</td>
+		<td>https://mac-cloud.riskivy.com/mac-cloud</td>
+	</tr>
 </tbody>
 <thead>
 	<tr>
@@ -77,11 +106,15 @@
 <tbody>
 	<tr>
 		<td>maldun</td>
-		<td>https://maldun.com/submit/submit_file/</td>
+		<td>https://maldun.com/submit/submit_file</td>
 	</tr>
 	<tr>
 		<td>Tencent HABO</td>
 		<td>https://habo.qq.com/</td>
+	</tr>
+	<tr>
+		<td>Pithus</td>
+		<td>https://beta.pithus.org/</td>
 	</tr>
 </tbody>
 <thead>
