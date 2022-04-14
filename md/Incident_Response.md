@@ -158,7 +158,7 @@ https://github.com/0xDanielLopez/TweetFeed</td>
 </tbody>
 <thead>
 	<tr>
- 		<th colspan="2">Ransomware identify</th>
+ 		<th colspan="2">Ransomware Identify</th>
 	</tr>
 </thead>
 <tbody>
@@ -185,6 +185,25 @@ https://github.com/0xDanielLopez/TweetFeed</td>
 	<tr>
 		<td>VenusEye</td>
 		<td>https://lesuo.venuseye.com.cn/</td>
+	</tr>
+</tbody>
+<thead>
+	<tr>
+ 		<th colspan="2">Ransomware Decryption Tools</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>nomoreransom</td>
+		<td>https://www.nomoreransom.org/en/decryption-tools.html</td>
+	</tr>
+	<tr>
+		<td>Avast</td>
+		<td>https://www.avast.com/ransomware-decryption-tools</td>
+	</tr>
+	<tr>
+		<td>Emsisoft</td>
+		<td>https://www.emsisoft.com/ransomware-decryption-tools/free-download</td>
 	</tr>
 </tbody>
 </table>
