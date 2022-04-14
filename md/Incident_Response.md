@@ -25,5 +25,13 @@
 		<td>Dbappsecurity</td>
 		<td>https://ti.dbappsecurity.com.cn/</td>
 	</tr>
+	<tr>
+		<td>VenusEye</td>
+		<td>https://www.venuseye.com.cn/</td>
+	</tr>
+	<tr>
+		<td>watcherlab</td>
+		<td>https://feed.watcherlab.com/</td>
+	</tr>
 </tbody>
 </table>
