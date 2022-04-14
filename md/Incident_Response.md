@@ -156,7 +156,11 @@ https://github.com/0xDanielLopez/TweetFeed</td>
 <tbody>
 	<tr>
 		<td>ID Ransomware</td>
-		<td>https://id-ransomware.malwarehunterteam.com/</td>
+		<td>https://apackets.com/</td>
+	</tr>
+	<tr>
+		<td>360</td>
+		<td>https://lesuobingdu.360.cn/</td>
 	</tr>
 </tbody>
 </table>
