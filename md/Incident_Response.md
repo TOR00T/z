@@ -209,5 +209,9 @@ https://github.com/0xDanielLopez/TweetFeed</td>
 		<td>Kaspersky</td>
 		<td>https://noransom.kaspersky.com/</td>
 	</tr>
+	<tr>
+		<td>Trend Micro</td>
+		<td>https://www.trendmicro.com/en_us/business.html</td>
+	</tr>
 </tbody>
 </table>
