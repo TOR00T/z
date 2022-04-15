@@ -1,6 +1,33 @@
 <table>
 <thead>
 	<tr>
+ 		<th colspan="2">Tools</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>huorong</td>
+		<td>https://huorong.cn/</td>
+	</tr>
+	<tr>
+		<td>360</td>
+		<td>https://weishi.360.cn/mianyigongju.html</td>
+	</tr>
+	<tr>
+		<td>360</td>
+		<td>https://weishi.360.cn/mianyigongju.html</td>
+	</tr>
+	<tr>
+		<td>sangfor</td>
+		<td>https://edr.sangfor.com.cn/#/introduction/all_tools</td>
+	</tr>
+	<tr>
+		<td>Tencent HABO</td>
+		<td>https://habo.qq.com/tool/index</td>
+	</tr>
+</tbody>
+<thead>
+	<tr>
  		<th colspan="2">Threat Intelligence</th>
 	</tr>
 </thead>
