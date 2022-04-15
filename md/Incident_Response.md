@@ -14,10 +14,6 @@
 		<td>https://weishi.360.cn/mianyigongju.html</td>
 	</tr>
 	<tr>
-		<td>360</td>
-		<td>https://weishi.360.cn/mianyigongju.html</td>
-	</tr>
-	<tr>
 		<td>sangfor</td>
 		<td>https://edr.sangfor.com.cn/#/introduction/all_tools</td>
 	</tr>
