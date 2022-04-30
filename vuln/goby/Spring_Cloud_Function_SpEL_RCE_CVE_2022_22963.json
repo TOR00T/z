@@ -1,5 +1,5 @@
 {
-      "Name": "Spring Cloud Function SPEL RCE CVE-2022-22963",
+      "Name": "Spring Cloud Function SpEL RCE CVE-2022-22963",
       "Level": "3",
       "Tags": [
             "rce"
