@@ -1,5 +1,5 @@
-goby<br>
-nuclei<br>
+goby: https://gobies.org/<br>
+nuclei: https://github.com/projectdiscovery/nuclei<br>
 awvs<br>
 dirscan<br>
 <br>
