@@ -1,0 +1,47 @@
+ID,Repositories,About,Language
+1,https://github.com/xiecat/fofax,"fofax is a command line query tool based on the API of https://fofa.info/, simple is the best!",Golang
+2,https://github.com/projectdiscovery/nuclei,Fast and customizable vulnerability scanner based on simple YAML based DSL.,Golang
+3,https://github.com/projectdiscovery/simplehttpserver,Go alternative of python SimpleHTTPServer,Golang
+4,https://github.com/FunnyWolf/Viper,Redteam operation platform with webui,
+5,https://github.com/Adminisme/ServerScan,,Golang
+6,https://github.com/jweny/pocassist,Vulnerability Scan,Golang
+7,https://github.com/awake1t/linglong,,Golang
+8,https://github.com/b1gcat/DarkEye,,Golang
+9,https://github.com/s7ckTeam/Glass,,Python3
+10,https://github.com/0xDanielLopez/TweetFeed,Collecting IOCs posted on Twitter,
+11,https://github.com/rednaga/APKiD,"Android Application Identifier for Packers, Protectors, Obfuscators and Oddities - PEiD for Android",
+12,https://github.com/Yamato-Security/WELA,Windows Event Log Analyzer,Powershell
+13,https://github.com/shmilylty/netspy,,Golang
+14,https://github.com/Neo23x0/Loki,,Python3
+15,https://github.com/sairson/Yasso,,Golang
+16,https://github.com/shadow1ng/fscan,,Golang
+17,https://github.com/ExpLangcn/WanLi,,Python3
+18,https://github.com/knownsec/ksubdomain,,Golang
+19,https://github.com/projectdiscovery/subfinder,,Golang
+20,https://github.com/projectdiscovery/httpx,,Golang
+21,https://github.com/Apr4h/CobaltStrikeScan,,C#
+22,https://github.com/Sentinel-One/CobaltStrikeParser,,Python3
+23,https://github.com/phith0n/xray-poc-generation,,JavaScript
+24,https://github.com/odedshimon/BruteShark,,C#
+25,https://github.com/HatBoy/Pcap-Analyzer,,Python3
+26,https://github.com/yaklang/yakit,,
+27,https://github.com/lxflxfcl/monitor,,Python3
+28,https://github.com/w-digital-scanner/w12scan,,Python3
+29,https://github.com/TophantTechnology/ARL,,Python3
+30,https://github.com/loecho-sec/ARL-Finger-ADD,,Python3
+31,https://github.com/wgpsec/fofa_viewer,,Java
+32,https://github.com/4x99/code6,,PHP
+33,https://github.com/msfisgood/Nmap_tools,,Python3
+34,https://github.com/7dog7/masscan_to_nmap,,Python2
+35,https://github.com/jfmaes/SharpLNKGen-UI,,C#
+36,https://github.com/utkusen/wholeaked,,Golang
+37,https://github.com/ScriptKid-Beta/WebBatchRequest,,Java
+38,https://github.com/syncthing/syncthing,,Golang
+39,https://github.com/cloudreve/Cloudreve,,Golang
+40,https://github.com/nullt3r/jfscan,,Python3
+41,https://github.com/phper-hejing/insane,,Golang
+42,https://github.com/Bywalks/SSH_Spider,,Python3
+43,https://github.com/momosecurity/FindSomething,,JavaScript
+44,https://github.com/test502git/awvs14-scan,,Python3
+45,https://github.com/gloxec/CrossC2,generate CobaltStrike's cross-platform payload,
+46,https://github.com/soufianetahiri/RansomwareMonitor,A ransomware group monitoring bot written in C#.,C#
