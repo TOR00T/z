@@ -1,0 +1,7 @@
+certutil -encode calc.exe bcalc.exe
+copy 1.jpg/b + bcalc.exe/a 2.jpg
+certutil -decode 2.jpg dcalc.exe & dcalc.exe
+
+python pyarmor
+
+haozip exe+dll

